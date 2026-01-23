@@ -1,0 +1,19 @@
+.napbar {
+  background-color: black;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.menu a {
+  color: white;
+  margin-left: 15px;
+  font-size: 14px;
+}
