@@ -1,5 +1,16 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .main {
-  padding: 20px;
-  min-height: 80vh;
-  background-color: #f1f5f9;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 20px;            /* jarak antar semua elemen di dalam main */
+  padding: 40px 20px;   /* jarak dari tepi layar */
 }
