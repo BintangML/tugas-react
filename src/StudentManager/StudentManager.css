@@ -17,45 +17,14 @@ body {
   padding: 20px;
   border-radius: 6px;
   border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 /* TITLE */
 h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: #333;
-}
-
-/* FORM */
-.form {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.form input {
-  flex: 1;
-  padding: 8px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-}
-
-.form input:focus {
-  outline: none;
-  border-color: #2563eb;
-}
-
-.form button {
-  padding: 8px 14px;
-  background: #2563eb;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.form button:hover {
-  background: #1e40af;
 }
 
 /* TABLE */
@@ -70,7 +39,7 @@ thead {
 
 th,
 td {
-  padding: 10px;
+  padding: 12px;
   border: 1px solid #ddd;
   text-align: center;
 }
@@ -84,20 +53,25 @@ tbody tr:nth-child(even) {
   background: #fafafa;
 }
 
-/* BUTTON */
+/* BUTTONS */
 button.edit {
   background: #facc15;
   border: none;
-  padding: 6px 10px;
+  padding: 6px 12px;
   border-radius: 4px;
   cursor: pointer;
+  margin-right: 5px;
 }
 
 button.delete {
   background: #ef4444;
   color: white;
   border: none;
-  padding: 6px 10px;
+  padding: 6px 12px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
 }
