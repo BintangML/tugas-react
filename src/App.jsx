@@ -1,11 +1,13 @@
-import DaftarNama from "./Daftar/DaftarNama.jsx";
+import StudentForm from "./student/studentForm";
+import StudentTable from "./student/studentTable";
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <DaftarNama />
-    </div>
+    <>
+      <h1>Manajemen Siswa</h1>
+      <StudentForm />
+      <StudentTable />
+    </>
   );
 }
 
-export default App;
